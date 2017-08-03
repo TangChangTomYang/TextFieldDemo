@@ -1,0 +1,6 @@
+framework module TrimFieldDemo {
+  umbrella header "TrimFieldDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

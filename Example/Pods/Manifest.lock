@@ -1,0 +1,16 @@
+PODS:
+  - TrimFieldDemo (0.1.0)
+
+DEPENDENCIES:
+  - TrimFieldDemo (from `../`)
+
+EXTERNAL SOURCES:
+  TrimFieldDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TrimFieldDemo: 3e62d65fcfbfc0346ec3a0c9b162242cbd7812fe
+
+PODFILE CHECKSUM: 1a89a8de329b195cdcb372215d6d78c5610378ea
+
+COCOAPODS: 1.2.1

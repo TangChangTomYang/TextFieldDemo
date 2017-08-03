@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071405D2C26B998CD666BA3C2EFAA740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2C947B6351AD0EC6C1DE3E9A4A3CC9EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		30AD3BD90C224A37BAD542CAB6291B02 /* Pods-TrimFieldDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1168E4A38AA43279260B86B2DED5B02 /* Pods-TrimFieldDemo_Example-dummy.m */; };
+		4A335463E7EB61228B355F0F6A62CB40 /* Pods-TrimFieldDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BD8C7951D03C4F9DA102F642E7346C /* Pods-TrimFieldDemo_Tests-dummy.m */; };
+		4A367C87FBE7E1E638144E0C73497DD2 /* TrimFieldDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDAD2434B1F5F1F9760F4CD8AF8C024 /* TrimFieldDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		554A65860BD82D19B629BC011F7A3775 /* Pods-TrimFieldDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF550072A8CAF1B74E58A13B0F4601FB /* Pods-TrimFieldDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC28985D75EAA07D7B66D0CBA803865E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89F5290971DEE1197DD9E92C8785A0 /* ReplaceMe.m */; };
+		B34F34273D820631FAA1B69A43CC990F /* TrimFieldDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544AB627C12F56A091E42E5BC2E15F9 /* TrimFieldDemo-dummy.m */; };
+		C33102BF5CA0FA6DABBB630CB7062D65 /* Pods-TrimFieldDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 643E42DE835C007C37D0F3F6DA3C57A7 /* Pods-TrimFieldDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDA89171276EC11A0A8E1A69266500F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15E117E2C1CAA949686FB2486DFD747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6C8D1B581342096AE907B6006B52BF;
+			remoteInfo = TrimFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0645385CFD450129A332C6208244EDB5 /* Pods-TrimFieldDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TrimFieldDemo_Tests.modulemap"; sourceTree = "<group>"; };
+		0E3D35B70524D8769A66DCAAB8B8B868 /* Pods-TrimFieldDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrimFieldDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		11AC3384AA8ACB38986AE53556CF8CF4 /* Pods-TrimFieldDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrimFieldDemo_Tests-resources.sh"; sourceTree = "<group>"; };
+		24709FED7930F62469910113CE1CEA7C /* Pods-TrimFieldDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrimFieldDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2544AB627C12F56A091E42E5BC2E15F9 /* TrimFieldDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrimFieldDemo-dummy.m"; sourceTree = "<group>"; };
+		2D70DD28E863A1DFE7064E4558727ADB /* Pods_TrimFieldDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrimFieldDemo_Example.framework; path = "Pods-TrimFieldDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDAD2434B1F5F1F9760F4CD8AF8C024 /* TrimFieldDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrimFieldDemo-umbrella.h"; sourceTree = "<group>"; };
+		51A3BD4D1412E70D8631185B4100F9E0 /* TrimFieldDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TrimFieldDemo.modulemap; sourceTree = "<group>"; };
+		52840322A52ECFC152C41D72AA1BBBD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E5992B614B0A3D2F3EA473AE7D78E1 /* Pods-TrimFieldDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrimFieldDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		57240AA3FAFF4817C05A08C3B6F67729 /* Pods-TrimFieldDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrimFieldDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D74B6816ADD883698D3FFABCDD9C250 /* Pods-TrimFieldDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrimFieldDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		643E42DE835C007C37D0F3F6DA3C57A7 /* Pods-TrimFieldDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrimFieldDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F89F5290971DEE1197DD9E92C8785A0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		9114E23BAE8CA6CC81D52B567BC11A58 /* Pods-TrimFieldDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrimFieldDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96BD8C7951D03C4F9DA102F642E7346C /* Pods-TrimFieldDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrimFieldDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		A2E4A4F8682D09A735F0C81657B5F1D6 /* Pods-TrimFieldDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrimFieldDemo_Example-resources.sh"; sourceTree = "<group>"; };
+		AA153B4F0F4506005231B95E5D3CF4CD /* TrimFieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrimFieldDemo.framework; path = TrimFieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CBC65127D2E00433CA19EFF93DE0CE /* TrimFieldDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrimFieldDemo.xcconfig; sourceTree = "<group>"; };
+		B789314606E897FFDB55AD872A35D55E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B3B60A9A422954CE744489576FB684 /* Pods-TrimFieldDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TrimFieldDemo_Example.modulemap"; sourceTree = "<group>"; };
+		C814114FDCCAB8388BB1107F75EA6EC7 /* TrimFieldDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrimFieldDemo-prefix.pch"; sourceTree = "<group>"; };
+		CDC0587056EEE526DEBF4416C3EB1C5E /* Pods-TrimFieldDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrimFieldDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CF550072A8CAF1B74E58A13B0F4601FB /* Pods-TrimFieldDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrimFieldDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D1168E4A38AA43279260B86B2DED5B02 /* Pods-TrimFieldDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrimFieldDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		D23484617EE6CE7356FF3776E80E6ECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AF8AC02D86815335D3428DEBCAFC1D /* Pods_TrimFieldDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrimFieldDemo_Tests.framework; path = "Pods-TrimFieldDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F6E3D940F3F0FD7202A796C32244FB /* Pods-TrimFieldDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrimFieldDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EEC1C832B29087AA0530BE9E409BDB26 /* Pods-TrimFieldDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrimFieldDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9BA84008C69F2BE01D4D913F12AAD08 /* Pods-TrimFieldDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrimFieldDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71CE213DB81698CE0DE48E47D783F0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C947B6351AD0EC6C1DE3E9A4A3CC9EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E0E249CABEC3514A7168C8579D2B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA89171276EC11A0A8E1A69266500F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B44883685214B3C8A9221EE1CBFF0CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071405D2C26B998CD666BA3C2EFAA740 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109D39254F02A686FFBAF3414F36BE92 /* TrimFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2DF694D65887B72C40C974A4E838A629 /* Support Files */,
+				85D709EF133BB16A0E4FBF2533CEB7F2 /* TrimFieldDemo */,
+			);
+			name = TrimFieldDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2DF694D65887B72C40C974A4E838A629 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52840322A52ECFC152C41D72AA1BBBD6 /* Info.plist */,
+				51A3BD4D1412E70D8631185B4100F9E0 /* TrimFieldDemo.modulemap */,
+				B3CBC65127D2E00433CA19EFF93DE0CE /* TrimFieldDemo.xcconfig */,
+				2544AB627C12F56A091E42E5BC2E15F9 /* TrimFieldDemo-dummy.m */,
+				C814114FDCCAB8388BB1107F75EA6EC7 /* TrimFieldDemo-prefix.pch */,
+				3BDAD2434B1F5F1F9760F4CD8AF8C024 /* TrimFieldDemo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TrimFieldDemo";
+			sourceTree = "<group>";
+		};
+		54767A372919956A9061332EBDC71E1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E90699D873C692F577D6D613FEE03C0D /* Pods-TrimFieldDemo_Example */,
+				7F572230B2F8C9D93C609CD73B9A8636 /* Pods-TrimFieldDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FC86271A0C48FBABABF3CDD1316F2E81 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F7FB475D147BC680F74C6827D229B3E5 /* Products */,
+				54767A372919956A9061332EBDC71E1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F572230B2F8C9D93C609CD73B9A8636 /* Pods-TrimFieldDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D23484617EE6CE7356FF3776E80E6ECD /* Info.plist */,
+				0645385CFD450129A332C6208244EDB5 /* Pods-TrimFieldDemo_Tests.modulemap */,
+				9114E23BAE8CA6CC81D52B567BC11A58 /* Pods-TrimFieldDemo_Tests-acknowledgements.markdown */,
+				5D74B6816ADD883698D3FFABCDD9C250 /* Pods-TrimFieldDemo_Tests-acknowledgements.plist */,
+				96BD8C7951D03C4F9DA102F642E7346C /* Pods-TrimFieldDemo_Tests-dummy.m */,
+				F9BA84008C69F2BE01D4D913F12AAD08 /* Pods-TrimFieldDemo_Tests-frameworks.sh */,
+				11AC3384AA8ACB38986AE53556CF8CF4 /* Pods-TrimFieldDemo_Tests-resources.sh */,
+				CF550072A8CAF1B74E58A13B0F4601FB /* Pods-TrimFieldDemo_Tests-umbrella.h */,
+				EEC1C832B29087AA0530BE9E409BDB26 /* Pods-TrimFieldDemo_Tests.debug.xcconfig */,
+				E5F6E3D940F3F0FD7202A796C32244FB /* Pods-TrimFieldDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-TrimFieldDemo_Tests";
+			path = "Target Support Files/Pods-TrimFieldDemo_Tests";
+			sourceTree = "<group>";
+		};
+		85D709EF133BB16A0E4FBF2533CEB7F2 /* TrimFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				94CF4A12D72C3B26B99B977ED853E6A4 /* Classes */,
+			);
+			name = TrimFieldDemo;
+			path = TrimFieldDemo;
+			sourceTree = "<group>";
+		};
+		94CF4A12D72C3B26B99B977ED853E6A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F89F5290971DEE1197DD9E92C8785A0 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E90699D873C692F577D6D613FEE03C0D /* Pods-TrimFieldDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B789314606E897FFDB55AD872A35D55E /* Info.plist */,
+				C5B3B60A9A422954CE744489576FB684 /* Pods-TrimFieldDemo_Example.modulemap */,
+				57240AA3FAFF4817C05A08C3B6F67729 /* Pods-TrimFieldDemo_Example-acknowledgements.markdown */,
+				24709FED7930F62469910113CE1CEA7C /* Pods-TrimFieldDemo_Example-acknowledgements.plist */,
+				D1168E4A38AA43279260B86B2DED5B02 /* Pods-TrimFieldDemo_Example-dummy.m */,
+				53E5992B614B0A3D2F3EA473AE7D78E1 /* Pods-TrimFieldDemo_Example-frameworks.sh */,
+				A2E4A4F8682D09A735F0C81657B5F1D6 /* Pods-TrimFieldDemo_Example-resources.sh */,
+				643E42DE835C007C37D0F3F6DA3C57A7 /* Pods-TrimFieldDemo_Example-umbrella.h */,
+				CDC0587056EEE526DEBF4416C3EB1C5E /* Pods-TrimFieldDemo_Example.debug.xcconfig */,
+				0E3D35B70524D8769A66DCAAB8B8B868 /* Pods-TrimFieldDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-TrimFieldDemo_Example";
+			path = "Target Support Files/Pods-TrimFieldDemo_Example";
+			sourceTree = "<group>";
+		};
+		F7FB475D147BC680F74C6827D229B3E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D70DD28E863A1DFE7064E4558727ADB /* Pods_TrimFieldDemo_Example.framework */,
+				D7AF8AC02D86815335D3428DEBCAFC1D /* Pods_TrimFieldDemo_Tests.framework */,
+				AA153B4F0F4506005231B95E5D3CF4CD /* TrimFieldDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC86271A0C48FBABABF3CDD1316F2E81 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				109D39254F02A686FFBAF3414F36BE92 /* TrimFieldDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D6736160F4053712BA5CD29A3768E3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33102BF5CA0FA6DABBB630CB7062D65 /* Pods-TrimFieldDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC6C53E412266F36DFF7A891F239451 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554A65860BD82D19B629BC011F7A3775 /* Pods-TrimFieldDemo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CB051C8E1165F9CD12B8582988E6D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A367C87FBE7E1E638144E0C73497DD2 /* TrimFieldDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FF801CBABA58A63372BC17DB0655E69 /* Pods-TrimFieldDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C35CB6D2741BDE7F81E7815C5966D88 /* Build configuration list for PBXNativeTarget "Pods-TrimFieldDemo_Tests" */;
+			buildPhases = (
+				A498A56D02756C2E72D9E37BB8179BB1 /* Sources */,
+				B44883685214B3C8A9221EE1CBFF0CCE /* Frameworks */,
+				7EC6C53E412266F36DFF7A891F239451 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TrimFieldDemo_Tests";
+			productName = "Pods-TrimFieldDemo_Tests";
+			productReference = D7AF8AC02D86815335D3428DEBCAFC1D /* Pods_TrimFieldDemo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B407A981DCB3C9A138C271F9DA7B137 /* Pods-TrimFieldDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8675F6DBFC5B634FE3788F16B412422 /* Build configuration list for PBXNativeTarget "Pods-TrimFieldDemo_Example" */;
+			buildPhases = (
+				A913AE724FB4A85583F449ADF76C1D24 /* Sources */,
+				B3E0E249CABEC3514A7168C8579D2B08 /* Frameworks */,
+				0D6736160F4053712BA5CD29A3768E3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E1FF3D186A9BADF58EF2062CBFECCC /* PBXTargetDependency */,
+			);
+			name = "Pods-TrimFieldDemo_Example";
+			productName = "Pods-TrimFieldDemo_Example";
+			productReference = 2D70DD28E863A1DFE7064E4558727ADB /* Pods_TrimFieldDemo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD6C8D1B581342096AE907B6006B52BF /* TrimFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54270029F6A2BBCB69B8A5FBF917EC4A /* Build configuration list for PBXNativeTarget "TrimFieldDemo" */;
+			buildPhases = (
+				B4AF7BECD44F43D93D6BE05FF3E71DBF /* Sources */,
+				71CE213DB81698CE0DE48E47D783F0FC /* Frameworks */,
+				92CB051C8E1165F9CD12B8582988E6D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrimFieldDemo;
+			productName = TrimFieldDemo;
+			productReference = AA153B4F0F4506005231B95E5D3CF4CD /* TrimFieldDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F7FB475D147BC680F74C6827D229B3E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B407A981DCB3C9A138C271F9DA7B137 /* Pods-TrimFieldDemo_Example */,
+				6FF801CBABA58A63372BC17DB0655E69 /* Pods-TrimFieldDemo_Tests */,
+				FD6C8D1B581342096AE907B6006B52BF /* TrimFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A498A56D02756C2E72D9E37BB8179BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A335463E7EB61228B355F0F6A62CB40 /* Pods-TrimFieldDemo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A913AE724FB4A85583F449ADF76C1D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AD3BD90C224A37BAD542CAB6291B02 /* Pods-TrimFieldDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4AF7BECD44F43D93D6BE05FF3E71DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC28985D75EAA07D7B66D0CBA803865E /* ReplaceMe.m in Sources */,
+				B34F34273D820631FAA1B69A43CC990F /* TrimFieldDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4E1FF3D186A9BADF58EF2062CBFECCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrimFieldDemo;
+			target = FD6C8D1B581342096AE907B6006B52BF /* TrimFieldDemo */;
+			targetProxy = F15E117E2C1CAA949686FB2486DFD747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BD0546177D5BC4D64D1937F33E9EAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC0587056EEE526DEBF4416C3EB1C5E /* Pods-TrimFieldDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TrimFieldDemo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrimFieldDemo_Example/Pods-TrimFieldDemo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrimFieldDemo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		488B7FBCE26DFB085AD5D71C56FC4F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F6E3D940F3F0FD7202A796C32244FB /* Pods-TrimFieldDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TrimFieldDemo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrimFieldDemo_Tests/Pods-TrimFieldDemo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrimFieldDemo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DCBD6B18B000FB7520F5A4678C150A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC1C832B29087AA0530BE9E409BDB26 /* Pods-TrimFieldDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TrimFieldDemo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrimFieldDemo_Tests/Pods-TrimFieldDemo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrimFieldDemo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F9C71BC9CCA04A5C53DBE448C3F355B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CBC65127D2E00433CA19EFF93DE0CE /* TrimFieldDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TrimFieldDemo/TrimFieldDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrimFieldDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrimFieldDemo/TrimFieldDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TrimFieldDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A7629E49C5C1DBF095C45C25EAFEFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CBC65127D2E00433CA19EFF93DE0CE /* TrimFieldDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TrimFieldDemo/TrimFieldDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrimFieldDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrimFieldDemo/TrimFieldDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TrimFieldDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B145E82099EF935B1A271992C6B83AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E3D35B70524D8769A66DCAAB8B8B868 /* Pods-TrimFieldDemo_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TrimFieldDemo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrimFieldDemo_Example/Pods-TrimFieldDemo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrimFieldDemo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C35CB6D2741BDE7F81E7815C5966D88 /* Build configuration list for PBXNativeTarget "Pods-TrimFieldDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCBD6B18B000FB7520F5A4678C150A4 /* Debug */,
+				488B7FBCE26DFB085AD5D71C56FC4F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54270029F6A2BBCB69B8A5FBF917EC4A /* Build configuration list for PBXNativeTarget "TrimFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A7629E49C5C1DBF095C45C25EAFEFC7 /* Debug */,
+				7F9C71BC9CCA04A5C53DBE448C3F355B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8675F6DBFC5B634FE3788F16B412422 /* Build configuration list for PBXNativeTarget "Pods-TrimFieldDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD0546177D5BC4D64D1937F33E9EAA5 /* Debug */,
+				B145E82099EF935B1A271992C6B83AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

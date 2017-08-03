@@ -1,0 +1,22 @@
+{
+  "name": "TrimFieldDemo",
+  "version": "0.1.0",
+  "summary": "A short description of TrimFieldDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TangchangTomYang/TrimFieldDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TangchangTomYang": "6908525195@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/TangchangTomYang/TrimFieldDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TrimFieldDemo/Classes/**/*"
+}
